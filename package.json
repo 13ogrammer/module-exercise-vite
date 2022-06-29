@@ -2,8 +2,8 @@
   "name": "module-exercise-vite",
   "version": "1.0.0",
   "description": "nodejs module using vite",
-  "main": "./dist/my-module.umd.js",
-  "module": "./dist/my-module.es.js",
+  "main": "dist/my-module.umd.js",
+  "module": "dist/my-module.es.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -18,8 +18,8 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/my-module.es.js",
-      "require": "./dist/my-module.umd.js"
+      "require": "./dist/my-module.umd.js",
+      "import": "./dist/my-module.es.js"
     }
   },
   "files": [
