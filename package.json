@@ -16,12 +16,6 @@
   "devDependencies": {
     "vite": "^2.9.9"
   },
-  "exports": {
-    ".": {
-      "require": "./dist/my-module.umd.js",
-      "import": "./dist/my-module.es.js"
-    }
-  },
   "files": [
     "dist"
   ]
