@@ -1,6 +1,6 @@
 {
   "name": "module-exercise-vite",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "nodejs module using vite",
   "main": "dist/my-module.umd.js",
   "module": "dist/my-module.es.js",
